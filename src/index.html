@@ -6,9 +6,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <div class="container">
+      <header>Verifica tu método de pago aquí</header>
+      <main>
+        <input id="numberCard" placeholder="XXXX XXXX XXXX 1234" maxlength="19"/>
+        <div class="buttons">
+          <button id="clearButton">Limpiar</button>
+          <button id="validateButton">Validar</button>
+        </div>
+        <label id="labelCard"></label>
+        <label id="typeCard"></label>
+      </main>
+      <footer>By: Vivie</footer>
+    </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
